@@ -1,0 +1,35 @@
+{
+  "dataset": "secom_telemetry_modified.csv",
+  "label_column": "label",
+  "ordering": "sorted by 'timestamp' (parsed successfully for every labelled row)",
+  "n_total_labelled": 1567,
+  "n_train": 1096,
+  "n_validation": 235,
+  "n_test": 236,
+  "overall_defect_prevalence": 0.06636885768985322,
+  "train_defect_prevalence": 0.07116788321167883,
+  "validation_defect_prevalence": 0.07234042553191489,
+  "test_defect_prevalence": 0.038135593220338986,
+  "validation_selected_threshold": 0.013247894123196602,
+  "validation_best_f1_at_selected_threshold": 0.1531100478467405,
+  "test_accuracy": 0.2330508474576271,
+  "test_precision": 0.04736842105263158,
+  "test_recall": 1.0,
+  "test_f1": 0.09045226130653267,
+  "test_balanced_accuracy": 0.6013215859030837,
+  "test_roc_auc": 0.6426823299069995,
+  "test_average_precision": 0.07113143329700151,
+  "test_confusion_matrix_labels_0_then_1": [
+    [
+      46,
+      181
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "test_natural_prevalence_untouched": true,
+  "test_rows_resampled": false,
+  "preprocessing_fit_rows": 1096
+}
